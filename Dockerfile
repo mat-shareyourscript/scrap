@@ -4,6 +4,7 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-RUN crontab crontab
+#RUN crontab crontab
 
-CMD ["crond", "-f"]
+#CMD ["crond", "-f"]
+CMD ["true"]
