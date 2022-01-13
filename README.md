@@ -10,7 +10,7 @@
 
 ## Tags
 
-* [0.0.1](http://github.com/mat-shareyourscript/django-cos/releases/tag/0.0.1) - Python 3.10
+* [0.0.1](http://github.com/mat-shareyourscript/scrap/releases/tag/0.0.1) - Python 3.10
 
 ## Description
 
