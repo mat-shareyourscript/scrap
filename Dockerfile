@@ -7,7 +7,9 @@ RUN apk update \
      gcc \
      libffi-dev \
      build-base \
-  && pip install --no-cache-dir -r requirements.txt
+  && pip install --no-cache-dir -r requirements.txt \
+  && apk del gcc libffi-dev build-base \
+  && rm -rf /var/cache/apk/*
 
 #RUN crontab crontab
 
